@@ -1,0 +1,43 @@
+
+
+
+.skills-tools{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 20px 50px 20px;
+
+
+    .skills,
+    .tools{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #369e97;
+        border-radius: 20px;
+        padding: 20px;
+    }
+    .title{
+        font-size: 48px;
+        color: #ffff;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+    }
+    .content{
+        display: flex;
+        gap: 30px;
+    }
+    svg{
+        width: 80px;
+        height: 80px;
+    }
+    .javascript{
+        margin-top: 5px;
+    }
+    .github{
+        margin: 10px;
+    }
+    .vscode{
+        margin-top: 10px;
+    }
+}

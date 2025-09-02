@@ -1,0 +1,61 @@
+
+
+/* FALTA QUE AL HACER HOVER A LA IMAGEN DE LA APP SE CONVIERTA EN MANO */
+
+.proyects-background{
+    background-color: #5dc1b9;
+}
+.proyects{
+    padding: 50px 0;
+
+    .title-section{
+        font-size: 52px;
+        color: #ffff ;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+        margin-bottom: 20px;
+    }
+    .content{
+        display: flex;
+        gap: 20px;
+
+        li{
+            padding: 20px;
+            gap: 20px;
+            border-radius: 10px;
+            background-color: #ffff;
+            border-radius: 10px;
+
+        }
+        img{
+            height: 300px;
+            width: 100%;
+            object-fit:contain;
+            margin-bottom: 10px;
+        }
+        .title{
+            font-size: 24px;
+            font-weight: bold;
+            padding-bottom: 10px;
+        }
+        .description{
+            letter-spacing: 0;
+            margin-bottom: 10px;
+        }
+        .logos{
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        svg{
+            height: 80px;
+            width: 80px;
+        }
+        .app .imagen:hover{
+            cursor: pointer;
+        }
+    }
+   
+
+}

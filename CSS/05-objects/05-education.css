@@ -1,0 +1,44 @@
+
+
+
+.education{
+    padding: 50px 0;
+
+    .title-section{
+        font-size: 52px;
+        color: #369e97 ;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+        margin-bottom: 20px;
+    }
+    .content{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        color: #ffff;
+
+
+        li{
+            padding: 20px;
+            background-color: #369e97;
+        }
+        .title{
+            font-size: 24px;
+            font-weight: bold;
+            padding-bottom: 10px;
+        }
+        .description{
+            letter-spacing: 0;
+            margin-bottom: 10px;
+        }
+
+        svg{
+            height: 80px;
+            width: 80px;
+        }
+
+    }
+   
+
+}
