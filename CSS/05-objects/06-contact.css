@@ -1,0 +1,79 @@
+
+/* CONTACT */
+.contact{
+    padding: 50px 0;
+    scroll-margin-top: 70px; 
+
+    .title {
+        font-size: 52px;
+        color: #369e97 ;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+        margin-bottom: 20px;
+    }
+
+    .container{
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+
+        .info {
+            display: flex;
+            flex:1;
+            gap: 40px;
+
+            .text {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                font-size: 20px;
+                margin: 40px;
+                letter-spacing: 0;
+            }
+
+            .image {
+                width: 40%;
+                height: 80%;
+                border-radius: 10px;
+            }        
+        }
+
+        .form {
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .form input,
+        .form textarea {
+            padding: 12px;
+            font-size: 18px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+        .form input:focus,
+        .form textarea:focus {
+            border-color: #369e97;
+        }
+
+        .form button {
+            width: fit-content;
+            margin-left: auto;
+            padding: 14px;
+            font-size: 18px;
+            font-weight: bold;
+            background: #5dc1b9 ;
+            color: white;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .form button:hover {
+            background: #369e97;
+        }
+
+    }
+}

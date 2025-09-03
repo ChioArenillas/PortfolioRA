@@ -3,7 +3,9 @@
 
 .about{
     padding: 50px 0 20px ;
-
+    scroll-margin-top: 70px; 
+    display: flex;
+    flex-direction: column;
 
     .title{
     font-size: 52px;
@@ -19,4 +21,21 @@
         padding-bottom: 20px;
         letter-spacing: 0;
     }
+    .button {
+        width: fit-content;
+        align-self: center;
+        padding: 14px;
+        font-size: 18px;
+        font-weight: bold;
+        background: #5dc1b9 ;
+        color: white;
+        border-radius: 8px;
+        cursor: pointer;
+        margin-bottom: 20px;
+    }
+
+    .button:hover {
+        background: #369e97;
+    }
+
 }
