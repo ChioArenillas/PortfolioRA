@@ -10,15 +10,15 @@
         width: 100%;
         object-fit: cover;
     }
-        .grey-background{
-            position: absolute; 
-            width: 100%;
-            height: 450px;
-            background: linear-gradient( 
-            to right,
-            rgba(255, 255, 255, 0) 0%,   
-            rgb(100, 100, 100) 100%)     
-        }
+    .grey-background{
+        position: absolute; 
+        width: 100%;
+        height: 450px;
+        background: linear-gradient( 
+        to right,
+        rgba(255, 255, 255, 0) 0%,   
+        rgb(100, 100, 100) 100%)     
+    }
         
     .text{
         position: relative;
@@ -28,6 +28,7 @@
         color:  #ffff;
         top: 50%;
         transform: translateY(-50%);
+        z-index: 2;
 
         .title{
             display: flex;
@@ -54,17 +55,7 @@
         }
 
     }
-/*     .text-left:hover{
-        .grey-background{
-            position: absolute; 
-            width: 100%;
-            height: 450px;
-            background: linear-gradient( 
-            to right,
-            rgba(255, 255, 255, 0) 0%,   
-            rgb(100, 100, 100) 0%)     
-        }            
-    } */
+} 
+
     
         
-}
