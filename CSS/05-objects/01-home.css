@@ -2,18 +2,18 @@
 
 
 .top {
-    block-size: 450px;
+    block-size: 250px;
 
     .imagen{
         position: absolute;
-        height: 450px;
+        height: 250px;
         width: 100%;
         object-fit: cover;
     }
     .grey-background{
         position: absolute; 
         width: 100%;
-        height: 450px;
+        height: 250px;
         background: linear-gradient( 
         to right,
         rgba(255, 255, 255, 0) 0%,   
